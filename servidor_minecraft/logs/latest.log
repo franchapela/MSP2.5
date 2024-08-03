@@ -1,0 +1,335 @@
+[03Aug2024 02:11:25.973] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[03Aug2024 02:11:25.977] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[03Aug2024 02:11:26.720] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[03Aug2024 02:11:26.784] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSP2.5/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[03Aug2024 02:11:26.841] [main/INFO] [AutoModpack/]: Prelaunching AutoModpack...
+[03Aug2024 02:11:26.898] [main/INFO] [AutoModpack/]: Loaded config! took 50ms
+[03Aug2024 02:11:26.901] [main/INFO] [AutoModpack/]: AutoModpack self-updater is disabled in server config.
+[03Aug2024 02:11:26.902] [main/INFO] [AutoModpack/]: AutoModpack prelaunched! took 61ms
+[03Aug2024 02:11:27.405] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP2.5/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[03Aug2024 02:11:27.412] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP2.5/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[03Aug2024 02:11:27.418] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP2.5/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[03Aug2024 02:11:27.420] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP2.5/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[03Aug2024 02:11:27.698] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[03Aug2024 02:11:31.128] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Aug2024 02:11:31.215] [main/ERROR] [mixin/]: Mixin config factoryapi-common.mixins.json does not specify "minVersion" property
+[03Aug2024 02:11:31.216] [main/ERROR] [mixin/]: Mixin config factoryapi.mixins.json does not specify "minVersion" property
+[03Aug2024 02:11:31.286] [main/ERROR] [mixin/]: Mixin config betterfurnaces-common.mixins.json does not specify "minVersion" property
+[03Aug2024 02:11:31.287] [main/ERROR] [mixin/]: Mixin config betterfurnaces.mixins.json does not specify "minVersion" property
+[03Aug2024 02:11:31.405] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[03Aug2024 02:11:31.411] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[03Aug2024 02:11:31.489] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Aug2024 02:11:31.527] [main/WARN] [mixin/]: Reference map 'FactoryAPI-common-refmap.json' for factoryapi-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Aug2024 02:11:31.529] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Aug2024 02:11:31.534] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Aug2024 02:11:31.556] [main/WARN] [mixin/]: Reference map 'BetterFurnaces-forge-refmap.json' for betterfurnaces.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Aug2024 02:11:31.785] [main/WARN] [mixin/]: Error loading class: net/fabricmc/fabric/impl/networking/server/ServerLoginNetworkAddon (java.lang.ClassNotFoundException: net.fabricmc.fabric.impl.networking.server.ServerLoginNetworkAddon)
+[03Aug2024 02:11:33.898] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[03Aug2024 02:11:44.532] [modloading-worker-0/INFO] [AutoModpack/]: Launching AutoModpack...
+[03Aug2024 02:11:44.550] [modloading-worker-0/INFO] [AutoModpack/]: Generating modpack...
+[03Aug2024 02:11:44.588] [modloading-worker-0/INFO] [AutoModpack/]: Syncing main...
+[03Aug2024 02:11:44.650] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/upgraded-mobs-1.3.4.jar
+[03Aug2024 02:11:44.818] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/capybaramod-1.0.0.jar
+[03Aug2024 02:11:44.823] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/Vanishmod-1.20.1-1.1.17.1.jar
+[03Aug2024 02:11:44.827] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/serversleep-datapack.jar
+[03Aug2024 02:11:44.844] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/resourcefullib-forge-1.20.1-2.1.28.jar
+[03Aug2024 02:11:44.874] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/architectury-9.2.14-forge.jar
+[03Aug2024 02:11:44.913] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/MoreSwordsLegacy-Forge-1.20.1-2.0.5.jar
+[03Aug2024 02:11:44.929] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/foodtxf-1.20.1-1.7.1-forge.jar
+[03Aug2024 02:11:44.948] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/supermartijn642corelib-1.1.17-forge-mc1.20.1.jar
+[03Aug2024 02:11:44.964] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/Clumps-forge-1.20.1-12.0.0.4.jar
+[03Aug2024 02:11:44.965] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/justhammers-forge-2.0.3+mc1.20.1.jar
+[03Aug2024 02:11:44.969] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/travelersbackpack-forge-1.20.1-9.1.15.jar
+[03Aug2024 02:11:44.985] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/caelus-forge-3.2.0+1.20.1.jar
+[03Aug2024 02:11:45.019] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/inventoryessentials-forge-1.20.1-8.2.6.jar
+[03Aug2024 02:11:45.019] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/villagerleads-0.0.1.jar
+[03Aug2024 02:11:45.032] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/BuildingWands-mc1.20.1-2.6.9-release.jar
+[03Aug2024 02:11:45.072] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/getittogetherdrops-forge-1.20-1.3.jar
+[03Aug2024 02:11:45.101] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/sound-physics-remastered-forge-1.20.1-1.4.5.jar
+[03Aug2024 02:11:45.103] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/craftingtweaks-forge-1.20.1-18.2.4.jar
+[03Aug2024 02:11:45.125] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/FactoryAPI-1.20.1-2.1.4-forge.jar
+[03Aug2024 02:11:45.138] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/mcw-bridges-3.0.0-mc1.20.1forge.jar
+[03Aug2024 02:11:45.138] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/craftable_netherite_upgrades-1.0.0.jar
+[03Aug2024 02:11:45.145] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/cave_dweller-1.20.1-1.7.0.jar
+[03Aug2024 02:11:45.156] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/ironladders-1.20.1-2.2.3-forge.jar
+[03Aug2024 02:11:45.183] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/rechiseled-1.1.6-forge-mc1.20.jar
+[03Aug2024 02:11:45.184] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/mcw-roofs-2.3.1-mc1.20.1forge.jar
+[03Aug2024 02:11:45.198] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/friendsandfoes-forge-mc1.20.1-2.0.15.jar
+[03Aug2024 02:11:45.200] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/Bookshelf-Forge-1.20.1-20.2.13.jar
+[03Aug2024 02:11:45.217] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/mcw-windows-2.3.0-mc1.20.1forge.jar
+[03Aug2024 02:11:45.221] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/voicechat-forge-1.20.1-2.5.19.jar
+[03Aug2024 02:11:45.230] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/flowerymooblooms-forge-mc1.20.1-2.0.2.jar
+[03Aug2024 02:11:45.230] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/stackrefill-1.20.1-4.5.jar
+[03Aug2024 02:11:45.239] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/mcw-fences-1.1.2-mc1.20.1forge.jar
+[03Aug2024 02:11:45.261] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/balm-forge-1.20.1-7.3.6-all.jar
+[03Aug2024 02:11:45.264] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/mcw-lights-1.1.1-mc1.20.1fabric.jar
+[03Aug2024 02:11:45.262] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/collective-1.20.1-7.80.jar
+[03Aug2024 02:11:45.266] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/immersive_aircraft-1.0.1+1.20.1-forge.jar
+[03Aug2024 02:11:45.292] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/Terralith_1.20.x_v2.5.4.jar
+[03Aug2024 02:11:45.299] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/cookingforblockheads-forge-1.20.1-16.0.6.jar
+[03Aug2024 02:11:45.299] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/mcw-doors-1.1.1forge-mc1.20.1.jar
+[03Aug2024 02:11:45.312] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/elytraslot-forge-6.4.3+1.20.1.jar
+[03Aug2024 02:11:45.342] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/mcw-furniture-3.3.0-mc1.20.1forge.jar
+[03Aug2024 02:11:45.343] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/FallingTree-1.20.1-4.3.4.jar
+[03Aug2024 02:11:45.361] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/entityculling-forge-1.6.2-mc1.20.1.jar
+[03Aug2024 02:11:45.365] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/silk-touch-less-enderchest-1.0.jar
+[03Aug2024 02:11:45.370] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/curios-forge-5.9.1+1.20.1.jar
+[03Aug2024 02:11:45.374] [AutoModpackCreation-3/INFO] [AutoModpack/]: generated content for /mods/handcrafted-forge-1.20.1-3.0.6.jar
+[03Aug2024 02:11:45.399] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/journeymap-1.20.1-5.10.1-forge.jar
+[03Aug2024 02:11:45.406] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/geckolib-forge-1.20.1-4.4.7.jar
+[03Aug2024 02:11:45.416] [AutoModpackCreation-2/INFO] [AutoModpack/]: generated content for /mods/BetterThanMending-1.7.2.jar
+[03Aug2024 02:11:45.417] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/TaxFreeLevels-1.3.13-forge-1.20.2.jar
+[03Aug2024 02:11:45.423] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/walljump.jar
+[03Aug2024 02:11:45.426] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/spellbound-weapons-v4.0.5m.jar
+[03Aug2024 02:11:45.444] [AutoModpackCreation-4/INFO] [AutoModpack/]: generated content for /mods/BetterFurnaces-1.20.1-1.1.3-forge.jar
+[03Aug2024 02:11:45.634] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/fusion-1.1.1-forge-mc1.20.1.jar
+[03Aug2024 02:11:45.653] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/cloth-config-11.1.118-forge.jar
+[03Aug2024 02:11:45.662] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/jei-1.20.1-forge-15.8.2.25.jar
+[03Aug2024 02:11:45.671] [AutoModpackCreation-1/INFO] [AutoModpack/]: generated content for /mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar
+[03Aug2024 02:11:45.686] [modloading-worker-0/INFO] [AutoModpack/]: Modpack generated! took 1131ms
+[03Aug2024 02:11:45.709] [modloading-worker-0/INFO] [AutoModpack/]: AutoModpack launched! took 1177ms
+[03Aug2024 02:11:46.045] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[03Aug2024 02:11:46.054] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[03Aug2024 02:11:46.054] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[03Aug2024 02:11:46.054] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[03Aug2024 02:11:46.055] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[03Aug2024 02:11:46.055] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[03Aug2024 02:11:46.056] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[03Aug2024 02:11:46.292] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[03Aug2024 02:11:46.298] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[03Aug2024 02:11:46.911] [modloading-worker-0/INFO] [More Swords: Legacy/]: Loaded config file.
+[03Aug2024 02:11:46.939] [modloading-worker-0/INFO] [More Swords: Legacy/]: Saved config file.
+[03Aug2024 02:11:47.132] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.80.
+[03Aug2024 02:11:47.283] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[03Aug2024 02:11:47.287] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterfurnacesreforged:betterfurnaces_network/456860cc05f83e7aaafa2a43688679f2
+[03Aug2024 02:11:47.295] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterfurnacesreforged:betterfurnaces_network/e8f5a2b7866f3d36b8620aa6aa534aa8
+[03Aug2024 02:11:47.301] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterfurnacesreforged:betterfurnaces_network/0e1a91c85f0937759e437fb307585b97
+[03Aug2024 02:11:47.303] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterfurnacesreforged:betterfurnaces_network/eba2644e801131fc9f15bf036c497824
+[03Aug2024 02:11:47.304] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterfurnacesreforged:betterfurnaces_network/91673dc3b0c43146ae486411b923231f
+[03Aug2024 02:11:47.307] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterfurnacesreforged:betterfurnaces_network/6420c34bdc293063be376ce1ed42aa53
+[03Aug2024 02:11:47.310] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterfurnacesreforged:betterfurnaces_network/2ed477ec1262392aacb60519830470c2
+[03Aug2024 02:11:47.317] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterfurnacesreforged:betterfurnaces_network/31a62073043b306e97bc266098c75c3c
+[03Aug2024 02:11:47.480] [modloading-worker-0/INFO] [wily.betterfurnaces.BetterFurnacesReforged/]: Initializing Update Checker...
+[03Aug2024 02:11:47.495] [BetterFurnaces Update Checker/INFO] [wily.betterfurnaces.BetterFurnacesReforged/]: Starting Update Check...
+[03Aug2024 02:11:47.616] [BetterFurnaces Update Checker/INFO] [wily.betterfurnaces.BetterFurnacesReforged/]: Update Check done!
+[03Aug2024 02:11:47.616] [BetterFurnaces Update Checker/INFO] [wily.betterfurnaces.BetterFurnacesReforged/]: Now BetterFurnaces is updated!
+[03Aug2024 02:11:47.680] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:key_packet
+[03Aug2024 02:11:47.685] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:palette_packet
+[03Aug2024 02:11:47.686] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:wand_packet
+[03Aug2024 02:11:47.690] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:pos_packet
+[03Aug2024 02:11:47.690] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:global_settings_packet
+[03Aug2024 02:11:57.105] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[03Aug2024 02:11:57.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[03Aug2024 02:11:57.174] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.3.0 Target: null
+[03Aug2024 02:11:57.174] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[03Aug2024 02:11:57.316] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[03Aug2024 02:11:57.329] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[03Aug2024 02:11:57.329] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[03Aug2024 02:11:57.358] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[03Aug2024 02:11:57.358] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[03Aug2024 02:11:57.359] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[03Aug2024 02:11:57.438] [main/INFO] [journeymap/]: Initializing Packet Registries
+[03Aug2024 02:11:57.472] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[03Aug2024 02:11:57.473] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[03Aug2024 02:11:57.476] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[03Aug2024 02:11:57.477] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[03Aug2024 02:11:57.535] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[03Aug2024 02:11:57.535] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[03Aug2024 02:11:57.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.1 Target: null
+[03Aug2024 02:11:57.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[03Aug2024 02:11:57.665] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.15 Target: null
+[03Aug2024 02:11:57.666] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [spellbound_weapons_mr] Starting version check at https://api.modrinth.com/updates/egyqODDj/forge_updates.json
+[03Aug2024 02:11:57.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [spellbound_weapons_mr] Found status: UP_TO_DATE Current: 4.0.5m Target: null
+[03Aug2024 02:11:57.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[03Aug2024 02:11:57.824] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[03Aug2024 02:11:57.824] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[03Aug2024 02:11:57.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.1 Target: null
+[03Aug2024 02:11:57.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Aug2024 02:11:57.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[03Aug2024 02:11:57.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[03Aug2024 02:11:58.000] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.0.0 Target: null
+[03Aug2024 02:11:58.000] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[03Aug2024 02:11:58.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.19 Target: null
+[03Aug2024 02:11:58.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[03Aug2024 02:11:58.594] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.5 Target: null
+[03Aug2024 02:11:58.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_upgraded_mobs] Starting version check at https://api.modrinth.com/updates/iaFWBDP2/forge_updates.json
+[03Aug2024 02:11:58.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_upgraded_mobs] Found status: OUTDATED Current: 1.3.4 Target: 1.3.4+mod
+[03Aug2024 02:11:58.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [msmlegacy] Starting version check at https://updates.blamejared.com/get?n=msmlegacy&gv=1.20.1
+[03Aug2024 02:11:58.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [msmlegacy] Found status: BETA Current: 2.0.5 Target: 2.0.5
+[03Aug2024 02:11:58.885] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[03Aug2024 02:11:58.898] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.1.2 Target: null
+[03Aug2024 02:11:58.899] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [serversleep_mr] Starting version check at https://api.modrinth.com/updates/Cw8IlnGM/forge_updates.json
+[03Aug2024 02:11:58.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [serversleep_mr] Found status: AHEAD Current: 1-datapack Target: null
+[03Aug2024 02:11:58.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[03Aug2024 02:11:58.947] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.3.1 Target: null
+[03Aug2024 02:11:58.948] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[03Aug2024 02:11:58.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[03Aug2024 02:11:58.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_silk_touchlessenderchest] Starting version check at https://api.modrinth.com/updates/ucw9sJuV/forge_updates.json
+[03Aug2024 02:11:59.149] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_silk_touchlessenderchest] Found status: OUTDATED Current: 1.0 Target: 1.0+mod
+[03Aug2024 02:12:06.815] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Aug2024 02:12:13.297] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP2.5/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23220!/assets/.mcassetsroot' uses unexpected schema
+[03Aug2024 02:12:13.299] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP2.5/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23220!/data/.mcassetsroot' uses unexpected schema
+[03Aug2024 02:12:17.468] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enderitemod:enderite_ingot (from foodtxf-1.20.1-1.7.1-forge.jar)] as it is missing following references: enderitemod:enderite_ingot (from foodtxf-1.20.1-1.7.1-forge.jar)
+[03Aug2024 02:12:20.211] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe foodtxf:enderite_skillet_recipe
+com.google.gson.JsonSyntaxException: Unknown item 'enderitemod:enderite_upgrade_smithing_template'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.0-universal.jar%23225!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.0-universal.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:71) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Aug2024 02:12:20.249] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe foodtxf:enderite_knife_recipe
+com.google.gson.JsonSyntaxException: Unknown item 'enderitemod:enderite_upgrade_smithing_template'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.0-universal.jar%23225!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.0-universal.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:71) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Aug2024 02:12:20.255] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[03Aug2024 02:12:20.440] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2086 advancements
+[03Aug2024 02:12:20.444] [main/INFO] [rechiseled/]: Loaded 44 chiseling recipes
+[03Aug2024 02:12:20.495] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[03Aug2024 02:12:20.506] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[03Aug2024 02:12:25.984] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[03Aug2024 02:12:25.985] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Aug2024 02:12:25.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03Aug2024 02:12:25.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Aug2024 02:12:26.294] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03Aug2024 02:12:26.328] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[03Aug2024 02:12:26.478] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03Aug2024 02:12:26.479] [Thread-7/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03Aug2024 02:12:26.482] [Thread-7/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03Aug2024 02:12:26.488] [Thread-7/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[03Aug2024 02:12:26.492] [Thread-7/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[03Aug2024 02:12:26.587] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03Aug2024 02:12:37.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Aug2024 02:12:44.137] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.142] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.143] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.147] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.148] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.149] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.154] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.156] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.158] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.175] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.179] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.185] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.189] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.193] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.196] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:44.615] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:45.115] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:45.615] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:46.115] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 02:12:46.785] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9670 ms
+[03Aug2024 02:12:46.785] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.312s)! For help, type "help"
+[03Aug2024 02:12:46.836] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Aug2024 02:12:46.942] [Server thread/INFO] [AutoModpack/]: Hosting modpack on Minecraft port
+[03Aug2024 02:12:46.948] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[03Aug2024 02:16:10.488] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player EaioS is 351a5407-afb3-4de3-b54f-c9dfb014a354
+[03Aug2024 02:16:10.661] [Server thread/INFO] [AutoModpack/]: EaioS has installed AutoModpack.
+[03Aug2024 02:16:12.789] [Netty Epoll Server IO #3/INFO] [AutoModpack/]: EaioS has installed whole modpack
+[03Aug2024 02:16:39.911] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@7b603a9f[id=351a5407-afb3-4de3-b54f-c9dfb014a354,name=EaioS,properties={textures=[com.mojang.authlib.properties.Property@12a27ad3]},legacy=false] (/127.191.106.110:40225): Took too long to log in
+[03Aug2024 02:16:39.914] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7b603a9f[id=351a5407-afb3-4de3-b54f-c9dfb014a354,name=EaioS,properties={textures=[com.mojang.authlib.properties.Property@12a27ad3]},legacy=false] (/127.191.106.110:40225) lost connection: Took too long to log in
+[03Aug2024 02:16:39.941] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[03Aug2024 02:17:04.921] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player EaioS is 351a5407-afb3-4de3-b54f-c9dfb014a354
+[03Aug2024 02:17:05.119] [Server thread/INFO] [AutoModpack/]: EaioS has installed AutoModpack.
+[03Aug2024 02:17:06.850] [Netty Epoll Server IO #2/INFO] [AutoModpack/]: EaioS has installed whole modpack
+[03Aug2024 02:17:12.701] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EaioS[/127.191.106.110:45499] logged in with entity id 100 at (-4.5, 78.0, -177.5)
+[03Aug2024 02:17:12.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EaioS joined the game
+[03Aug2024 02:17:13.194] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: PLAYER_JOIN
+[03Aug2024 02:17:13.196] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: add_player wand
+[03Aug2024 02:17:13.232] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: config sent
+[03Aug2024 02:17:13.942] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of EaioS (18)
+[03Aug2024 02:17:13.947] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to EaioS
+[03Aug2024 02:17:20.128] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[03Aug2024 02:17:34.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <EaioS> asd
+[03Aug2024 02:18:03.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [EaioS: Set own game mode to Creative Mode]
+[03Aug2024 02:41:45.701] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EaioS lost connection: Disconnected
+[03Aug2024 02:41:45.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EaioS left the game
+[03Aug2024 02:41:45.704] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: remove player wand
+[03Aug2024 02:41:45.711] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client EaioS
+[03Aug2024 02:42:07.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03Aug2024 02:42:07.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03Aug2024 02:42:07.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03Aug2024 02:42:07.238] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.20.1-47.2.0-universal.jar%23225!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23220!/:?]
+Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	... 4 more
+[03Aug2024 02:42:08.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03Aug2024 02:42:24.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03Aug2024 02:42:24.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03Aug2024 02:42:24.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03Aug2024 02:42:24.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Aug2024 02:42:24.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Aug2024 02:42:24.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03Aug2024 02:42:24.952] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
